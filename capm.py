@@ -1,5 +1,6 @@
 import math
 #我在分支上修改了这个文件
+#第二次分支
 def getReturn(rm,beita):
     return rm*beita
 def getCov(bx,qx,by,qy,qm):
@@ -13,3 +14,4 @@ if __name__=="__main__":
     print(getReturn(0.07,1.05))
 
     print(getCov(1.15,0.35,0.95,0.33,0.2))
+
