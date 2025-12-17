@@ -8,7 +8,8 @@ def getCov(bx,qx,by,qy,qm):
     wx=math.sqrt(qx*qx-bx*bx*qm*qm)
     wy=math.sqrt(qy*qy-by*by*qm*qm)
     return(qxy,wx,wy)
-
+def add():
+    print("1")
 if __name__=="__main__":
     print(getReturn(-0.05,1.05))
     print(getReturn(0.07,1.05))
